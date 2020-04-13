@@ -26,10 +26,16 @@ while True:
 
 # Display frames in a window 
 cv2.imshow('video2', frames) 
+<<<<<<< HEAD
 	
 	# Wait for Esc key to stop 
 	#if cv2.waitKey(33) == 27: 
 	#	break
+=======
+    Wait for Esc key to stop 
+	if cv2.waitKey(33) == 27: 
+		break
+>>>>>>> 9ca99c0655d51092c51b598abd29823e50d56bb7
 
 # De-allocate any associated memory usage 
 cv2.destroyAllWindows() 
